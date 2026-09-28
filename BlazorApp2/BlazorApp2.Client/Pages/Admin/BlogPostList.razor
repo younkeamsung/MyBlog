@@ -1,0 +1,134 @@
+﻿@page "/admin/blogposts"
+@inject IBlogRepository _repository
+@rendermode InteractiveServer
+@attribute [StreamRendering]
+@using BlazorApp2.Client.Layout
+
+
+
+
+
+@if(posts?.Count == 0)
+{
+    <p>글이 없습니다.</p>
+}
+else if(posts == null)
+{
+    <p>로딩중..</p>
+}
+else
+{
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-12 col-md-9 mx-auto">
+            <div class="d-flex justify-content-center mb-2">
+                <h3>BlogPostList</h3>
+            </div>
+            <div class="d-flex justify-content-end mb-1">
+                <a class="btn btn-primary btn-sm shadow" href="/admin/blogposts/new">글쓰기</a>
+            </div>
+                <table class="table">
+                    <thead class="table-dark">
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">제목</th>
+                      <th scope="col">작성일</th>
+                      <th scope="col">카테고리</th>
+                      <th scope="col" style="width: 100px;" class="text-end">관리</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    @{ int index = 1;}
+                    @foreach(var p in posts)
+                        {
+                            <tr>
+                              <th scope="row">@(index++)</th>
+                              <th scope="col">@p.Title</th>
+                                @if(p.PublishDate.ToString("yyyy-MM-dd") == DateTime.Now.ToString("yyyy-MM-dd"))
+                                {
+                                    <th scope="col">@p.PublishDate.ToString("HH:mm")</th>
+                                }
+                                else
+                                {
+                                    <th scope="col">@p.PublishDate.ToString("yyyy-MM-dd")</th>
+                                }
+                                <th scope="col">@p.CategoryName</th>
+                              <th scope="col" class="text-end text-nowrap">
+                                    <a class="btn btn-primary btn-sm shadow" href="/admin/blogposts/@p.Id">
+                                      수정
+                                      </a>
+                                    <button type="button" class="btn btn-danger btn-sm shadow" @onclick="() => OpenModal(p)">
+                                        삭제
+                                    </button>
+                              </th>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+@if (isModalOpen)
+{
+    <div class="modal show" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true" style="display: block;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">@selectedPost?.Title 글 삭제</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="CloseModal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>정말로 삭제하시겠습니까?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" @onclick="() => DeletePost(selectedPost?.Id)">삭제</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" @onclick="CloseModal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private List<BlogPost>? posts = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadPostsAsync();
+    }
+
+    private async Task LoadPostsAsync()
+    {
+        // await Task.Delay(2000);
+        var numberOfPosts = await _repository.GetBlogPostCountAsync();
+        posts = await _repository.GetBlogPostsAsync(numberOfPosts, 0);
+        
+    }
+
+    private BlogPost? selectedPost = null;
+
+    private bool isModalOpen = false;
+
+    private void OpenModal(BlogPost post)
+    {
+        selectedPost = post;
+        isModalOpen = true;
+        StateHasChanged();
+    }
+
+    private void CloseModal()
+    {
+        isModalOpen = false;
+        StateHasChanged();
+    }
+
+    public async Task DeletePost(string id)
+    {
+        await _repository.DeleteBlogPostAsync(id);
+        CloseModal();
+        await LoadPostsAsync();
+    }
+    
+}

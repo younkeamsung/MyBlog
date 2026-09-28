@@ -1,0 +1,32 @@
+﻿@page "/post/{BlogPostId}"
+@inject IBlogRepository _repository
+
+@if(BlogPost != null)
+{
+    <div class="container-md">  
+        <div class="row">
+            <div class="col-12 col-md-6 mx-auto">
+                <div class="d-flex justify-content-center mb-3">
+                    <h3>@BlogPost.Title</h3>
+                </div>
+                <div class="mb-3">
+                    <input class="form-control" type="text" value="@BlogPost.CategoryName" readonly>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" readonly>@BlogPost.Text</textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public string BlogPostId { get; set; }
+    public BlogPost? BlogPost { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        BlogPost = await _repository.GetBlogPostAsync(BlogPostId);
+    }
+}

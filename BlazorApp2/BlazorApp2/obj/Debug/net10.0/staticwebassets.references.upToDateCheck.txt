@@ -1,0 +1,6 @@
+C:\Users\A\source\repos\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\A\source\repos\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\staticwebassets.build.json
+D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\staticwebassets.build.json
+D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\staticwebassets.build.json
+D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\staticwebassets.build.json
+D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\staticwebassets.build.json

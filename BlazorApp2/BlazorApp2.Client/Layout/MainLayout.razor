@@ -1,0 +1,45 @@
+﻿@inherits LayoutComponentBase
+
+@if (CategoryLimit)
+{
+    <div class="alert alert-danger" role="alert">
+        카테고리는 최대 5개까지 생성 가능합니다.
+        <button type="button" class="btn-close" @onclick="CloseAlert">
+        </button>
+    </div>
+}
+
+<div class="page">
+    
+    <div class="sidebar">
+        <NavMenu OnCategoryLimit="ShowCategoryLimit" />
+    </div>
+
+    <main>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui" data-nosnippet>
+    An unhandled error has occurred.
+    <a href="." class="reload">Reload</a>
+    <span class="dismiss">🗙</span>
+</div>
+
+@code{
+    private bool CategoryLimit = false;
+
+    private void ShowCategoryLimit()
+    {
+        CategoryLimit = true;
+    }
+
+    private void CloseAlert()
+    {
+        CategoryLimit = false;
+    }
+
+}

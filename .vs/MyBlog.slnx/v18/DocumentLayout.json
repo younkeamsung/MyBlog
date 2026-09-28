@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2\\repositories\\blogrepositorydataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\blazorapp2\\repositories\\blogrepositorydataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2.client\\pages\\post.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\pages\\post.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2.client\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2.client\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2.client\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2\\database\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\blazorapp2\\database\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2\\repositories\\categoryrepositorydataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\blazorapp2\\repositories\\categoryrepositorydataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2.client\\pages\\admin\\blogpostedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\pages\\admin\\blogpostedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2\\database\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC6102E-33A5-3671-4CCD-E921380C0ED7}|BlazorApp2\\BlazorApp2\\BlazorApp2.csproj|solutionrelative:blazorapp2\\blazorapp2\\database\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2.client\\pages\\categories\\categories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\pages\\categories\\categories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|d:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\myblog\\blazorapp2\\blazorapp2.client\\pages\\admin\\blogpostlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6346F603-0B13-D8D8-BC1A-0BC02C6B46EB}|BlazorApp2\\BlazorApp2.Client\\BlazorApp2.Client.csproj|solutionrelative:blazorapp2\\blazorapp2.client\\pages\\admin\\blogpostlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Post.razor",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Post.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Pages\\Post.razor",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Post.razor",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Pages\\Post.razor",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-28T08:34:43.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2\\Database\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2\\Database\\Entities\\Category.cs",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2\\Database\\Entities\\Category.cs",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2\\Database\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T07:56:05.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T07:53:18.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Models\\Category.cs",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Models\\Category.cs",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T07:40:12.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlogDbContext.cs",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2\\Database\\BlogDbContext.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2\\Database\\BlogDbContext.cs",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2\\Database\\BlogDbContext.cs",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2\\Database\\BlogDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T07:18:44.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Models\\BlogPost.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Models\\BlogPost.cs",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Models\\BlogPost.cs",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Models\\BlogPost.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T06:49:49.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogRepositoryDataAccess.cs",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2\\Repositories\\BlogRepositoryDataAccess.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2\\Repositories\\BlogRepositoryDataAccess.cs",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2\\Repositories\\BlogRepositoryDataAccess.cs",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2\\Repositories\\BlogRepositoryDataAccess.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T06:21:48.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryRepositoryDataAccess.cs",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2\\Repositories\\CategoryRepositoryDataAccess.cs",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2\\Repositories\\CategoryRepositoryDataAccess.cs",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2\\Repositories\\CategoryRepositoryDataAccess.cs",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2\\Repositories\\CategoryRepositoryDataAccess.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T06:19:12.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlogPostEdit.razor",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostEdit.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostEdit.razor",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostEdit.razor",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostEdit.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-28T03:10:53.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-28T05:59:55.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Categories.razor",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Categories\\Categories.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Pages\\Categories\\Categories.razor",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Categories\\Categories.razor",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Pages\\Categories\\Categories.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-28T05:53:37.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Pages\\Home.razor",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Pages\\Home.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-19T00:58:38.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BlogPostList.razor",
+              "DocumentMoniker": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostList.razor",
+              "RelativeDocumentMoniker": "BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostList.razor",
+              "ToolTip": "D:\\oraclejava\\oraclejava_26_08_29\\oraclejava_26_08_29\\MyBlog\\BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostList.razor",
+              "RelativeToolTip": "BlazorApp2\\BlazorApp2.Client\\Pages\\Admin\\BlogPostList.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-19T05:50:03.983Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

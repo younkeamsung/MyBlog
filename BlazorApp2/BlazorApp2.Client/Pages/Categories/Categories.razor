@@ -1,0 +1,74 @@
+﻿@page "/categories/{CategoryId:int}"
+@inject IBlogRepository _repository
+@rendermode InteractiveServer
+
+@if(posts?.Count == 0)
+{
+    <p>글이 없습니다.</p>
+}
+else if(posts == null)
+{
+    <p>로딩중..</p>    
+}
+else
+{
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-12 col-md-9 mx-auto">
+                <div class="d-flex justify-content-center mb-2">
+                    <h3>@posts[0].CategoryName</h3>
+                </div>
+                <table class="table">
+                    <thead class="table-dark">
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">제목</th>
+                      <th scope="col">작성일</th>
+                      <th scope="col">카테고리</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    @{ int index = 1;}
+                    @foreach(var p in posts)
+                        {
+                            <tr>
+                              <th scope="row">@(index++)</th>
+                              <th scope="col">
+                                  <a href="/Post/@p.Id">
+                                      @p.Title
+                                  </a>
+                              </th>
+                                @if(p.PublishDate.ToString("yyyy-MM-dd") == DateTime.Now.ToString("yyyy-MM-dd"))
+                                {
+                                    <th scope="col">@p.PublishDate.ToString("HH:mm")</th>
+                                }
+                                else
+                                {
+                                    <th scope="col">@p.PublishDate.ToString("yyyy-MM-dd")</th>
+                                }
+                                <th>@p.CategoryName</th>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+             </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public int? CategoryId { get; set; }
+
+    protected List<BlogPost> posts = new();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if(CategoryId != null)
+        {
+            posts = await _repository.GetBlogCategoryPostAsync(
+                CategoryId.ToString()
+            ) ?? new List<BlogPost>();
+        }
+    }
+}
