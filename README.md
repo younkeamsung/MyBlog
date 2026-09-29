@@ -1,3 +1,4 @@
+<div align= "center"> 
 # 📙 웹 소개
 <br>
 <h3>🔔 갤러리 및 시연 영상 🔔</h3>
@@ -7,3 +8,4 @@
 <br>
 <li>메인화면<br><br>
 <img src="src/main/resources/static/Gallery/01.홈.jpg"height=320 width=400 /></li> <br><br>
+</div>
