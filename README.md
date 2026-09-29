@@ -8,4 +8,8 @@
 <br>
 <li>메인화면<br><br>
 <img src="img/메인.png"height=500 width=700 /></li> <br><br>
+<br>
+<br>
+<li>어드민페이지<br><br>
+<img src="img/어드민.png"height=500 width=700 /></li> <br><br>
 </div>
