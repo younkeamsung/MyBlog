@@ -43,6 +43,8 @@
 
 <li>카테고리별페이지,카테고리삭제<br><br>
 <img src="img/카테고리별페이지,카테고리삭제.png"height=500 width=700 /></li> <br><br>
+<li>카테고리삭제확인모달<br><br>
+<img src="img/카테고리삭제모달.png"height=500 width=700 /></li> <br><br>
 <br>
 <br>
 
