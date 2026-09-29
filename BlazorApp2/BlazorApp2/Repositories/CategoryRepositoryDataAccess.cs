@@ -21,7 +21,7 @@ namespace BlazorApp2.Repositories
                 }
             }
         }
-
+        /*
         public async Task<Category?> GetCategoryAsync(string id)
         {
             using var context = factory.CreateDbContext();
@@ -36,7 +36,7 @@ namespace BlazorApp2.Repositories
             }
             return null;
         }
-
+        */
         public async Task<List<Category?>> GetCategorysAsync()
         {
             using var context = factory.CreateDbContext();

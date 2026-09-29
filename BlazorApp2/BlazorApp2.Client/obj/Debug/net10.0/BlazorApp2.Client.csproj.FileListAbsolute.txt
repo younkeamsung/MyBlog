@@ -2159,10 +2159,10 @@ D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorAp
 D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\refint\BlazorApp2.Client.dll
 D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\BlazorApp2.Client.pdb
 D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\ref\BlazorApp2.Client.dll
-D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp2.Client.cdvcuwejy7.wasm
-D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp2.Client.4bumyjvp2l.pdb
-D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp2.Client.cdvcuwejy7.wasm.gz
-D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp2.Client.4bumyjvp2l.pdb.gz
-D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\compressed\t7qo8xh244-{0}-cdvcuwejy7-cdvcuwejy7.gz
-D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\compressed\sg3g7hqbun-{0}-4bumyjvp2l-4bumyjvp2l.gz
-D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\compressed\y293gjo0u0-{0}-7wzr64wlsv-7wzr64wlsv.gz
+D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp2.Client.srgta8h69p.wasm
+D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp2.Client.j4ezi8kyc0.pdb
+D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp2.Client.srgta8h69p.wasm.gz
+D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\bin\Debug\net10.0\wwwroot\_framework\BlazorApp2.Client.j4ezi8kyc0.pdb.gz
+D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\compressed\t7qo8xh244-{0}-srgta8h69p-srgta8h69p.gz
+D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\compressed\sg3g7hqbun-{0}-j4ezi8kyc0-j4ezi8kyc0.gz
+D:\oraclejava\oraclejava_26_08_29\oraclejava_26_08_29\MyBlog\BlazorApp2\BlazorApp2.Client\obj\Debug\net10.0\compressed\y293gjo0u0-{0}-xwxiw059hb-xwxiw059hb.gz
