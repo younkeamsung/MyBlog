@@ -36,7 +36,7 @@
                                 <li class="d-flex align-items-center">
                                     <a class="dropdown-item" href="/categories/@c.CategoryId">@c.Name</a>
                                     <button type="button" class="btn btn-sm text-danger me-2"
-                                    @onclick="() => DeleteCategory(c.CategoryId)">X</button>
+                                    @onclick="() => OpenDeleteCategoryModal(c.CategoryId, c.Name)">X</button>
                                 </li>
                             }
                         </ul>
@@ -52,6 +52,27 @@
         </div>
     </nav>
 </div>
+
+@if (DeleteCategoryModalOpen)
+{
+    <div class="modal show" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true" style="display: block;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">@CategoryName 삭제</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="CloseDeleteCategoryModal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>정말로 "@CategoryName" 카테고리를 삭제하시겠습니까?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" @onclick="() => ConfirmDeleteCategory(CategoryId)">삭제</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" @onclick="CloseDeleteCategoryModal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
 
 
 @if (CategoryCreateModalOpen)
@@ -80,37 +101,54 @@
 
 
 @code{
+    // 카테고리 데이터 리스트
     private List<Category?> categories = new();
 
+    // 카테고리 생성 모달에서 받아온 텍스트 변수
     private string newCategoryName = string.Empty;
+    // 카테고리 삭제 모달 head에 집어넣을 카테고리 이름 변수
+    private string CategoryName = string.Empty;
+    // 카테고리 삭제 모달에 매개변수로 사용되는 카테고리 아이디 변수
+    private string CategoryId = string.Empty;
 
+    // 카테고리 생성 모달 상태값
     private bool CategoryCreateModalOpen = false;
+    // 카테고리 드롭다운 상태값
     private bool showCategories = false;
+    // 카테고리 삭제 모달 상태값
+    private bool DeleteCategoryModalOpen = false;
+
+
+    // 카테고리 생성 제한 경고창 콜백
     [Parameter]
     public EventCallback OnCategoryLimit { get; set; }
+
+    // 최초 실행시 페이지 로드
     protected override async Task OnInitializedAsync()
     {
         await LoadPostsAsync();
     }
 
+    // 페이지 로드
     private async Task LoadPostsAsync()
     {
         categories = await _Category_repository.GetCategorysAsync()
          ?? new List<Category>();
     }
-
-
-
+    
+    // 카테고리 드롭다운 열기
     private void ToggleCategory()
     {
         showCategories = !showCategories;
     }
-
+    
+    // 카테고리 드롭다운 닫기
     private void CloseCategoryDropdown()
     {
         showCategories = false;
     }
-
+    
+    // 카테고리생성 제한 후 MainLayout으로 상태값 보냄
     private async Task OpenCategoryCreateModal()
     {
         if(categories != null && categories.Count < 5)
@@ -122,26 +160,45 @@
             await OnCategoryLimit.InvokeAsync();
         }
     }
-
+    
+    // 카테고리 생성 모달 닫기
     private void CloseCategoryModal()
     {
         CategoryCreateModalOpen = false;
+        newCategoryName = "";
     }
 
-    private async Task DeleteCategory(string categoryId)
+    // 카테고리 삭제 확인 모달
+    private async Task OpenDeleteCategoryModal(string id, string name)
     {
-        await _Category_repository.DeleteCategoryAsync(categoryId);
+        CategoryId = id;
+        CategoryName = name;
+        DeleteCategoryModalOpen = true;
+    }
+    
+    // 카테고리 삭제
+    private async Task ConfirmDeleteCategory(string id)
+    {
+        await _Category_repository.DeleteCategoryAsync(id);
         categories = await _Category_repository.GetCategorysAsync();
+        CloseDeleteCategoryModal();
         NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
     }
-
-    private async Task AddCategory(string newcategoryName)
+    
+    // 카테고리 삭제 모달 닫기
+    private void CloseDeleteCategoryModal()
     {
-        await _Category_repository.SaveCategoryAsync(newcategoryName);
-        categories = await _Category_repository.GetCategorysAsync();
+        DeleteCategoryModalOpen = false;
+    }
 
-        newcategoryName = "";
+    // 카테고리 생성
+    private async Task AddCategory(string Name)
+    {
+        await _Category_repository.SaveCategoryAsync(Name);
+        categories = await _Category_repository.GetCategorysAsync();
         NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+        newCategoryName = "";
+        CloseCategoryModal();
     }
 
 }
