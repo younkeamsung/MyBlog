@@ -26,7 +26,7 @@
 패키지가 프로젝트 파일에 수동으로 반영되는 원리를 검색하여 알아내었고, dotnet CLI를 통해 프로젝트 디렉토리에 접근하여서 dotnet add package 명령어로 패키지를 수동 설치하여서 프로젝트 빌드를 정상적으로 성공시켰습니다.
 </li>
 <br><br>
-<h3>🔔 갤러리 🔔</h3>
+<h3>🔔 기능사진 🔔</h3>
 <br><br>
 
 <div style="font-weight: 700; font-size: 20px; text-align: center; color: #c9d1d9;">
